@@ -64,6 +64,13 @@ const config = {
         editUrl: 'https://github.com/justforlxz/docs.justforlxz.com/tree/master/docs/qt',
       },
     ],
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'UA-248878665-1',
+        anonymizeIP: true,
+      },
+    ]
   ],
 
   themeConfig:
