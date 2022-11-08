@@ -37,7 +37,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/justforlxz/docs.justforlxz.com/tree/master/docs/dev',
+          editUrl: 'https://github.com/justforlxz/docs.justforlxz.com/tree/master/',
           path: 'docs/dev',
           routeBasePath: 'dev',
         },
@@ -55,7 +55,7 @@ const config = {
         path: 'docs/qt',
         routeBasePath: 'qt',
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: 'https://github.com/justforlxz/docs.justforlxz.com/tree/master/docs/qt',
+        editUrl: 'https://github.com/justforlxz/docs.justforlxz.com/tree/master/',
       },
     ],
     [
