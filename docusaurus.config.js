@@ -65,9 +65,9 @@ const config = {
       },
     ],
     [
-      '@docusaurus/plugin-google-analytics',
+      '@docusaurus/plugin-google-gtag',
       {
-        trackingID: 'UA-248878665-1',
+        trackingID: 'G-2XX7VCR45P',
         anonymizeIP: true,
       },
     ]
