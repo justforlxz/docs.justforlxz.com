@@ -37,13 +37,26 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/justforlxz/docs.justforlxz.com/tree/master/docs/dev',
+          path: 'docs/dev',
+          routeBasePath: 'dev',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'qt',
+        path: 'docs/qt',
+        routeBasePath: 'qt',
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl: 'https://github.com/justforlxz/docs.justforlxz.com/tree/master/docs/qt',
+      },
     ],
   ],
 
@@ -58,10 +71,17 @@ const config = {
         },
         items: [
           {
-            to: '/docs/qt/intro',
-            activeBasePath: 'docs/qt/',
+            type: 'doc',
+            docId: 'dev',
             position: 'left',
-            label: 'Qt 学习'
+            label: '项目分享'
+          },
+          {
+            docsPluginId:'qt',
+            type: 'doc',
+            docId: 'index',
+            position: 'left',
+            label: 'Qt 入门'
           },
           {
             href: 'https://github.com/justforlxz/docs.justforlxz.com',
@@ -78,8 +98,12 @@ const config = {
             items: [
               {
                 label: 'Qt 学习',
-                to: '/docs/qt/intro',
+                to: '/qt',
               },
+              {
+                label: '项目分享',
+                to: '/dev'
+              }
             ],
           },
           {
