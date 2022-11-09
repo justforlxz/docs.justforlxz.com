@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 title: '准备工作'
 ---
 
@@ -13,7 +12,7 @@ macOS 下有两种安装方式，一种是在 qt  官网下载二进制安装包
 
 ### 二进制安装包
 
-> TODO: missing doc
+> 施工中...
 
 ### homebrew
 
@@ -51,4 +50,4 @@ sudo apt update && sudo apt install qtcreator qt6-default
 
 ## Windows
 
-> TODO: missing doc
+> 施工中...

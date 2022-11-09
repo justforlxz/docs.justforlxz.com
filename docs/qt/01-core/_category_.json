@@ -1,9 +1,9 @@
 {
-    "label": "Qt 图形编程入门",
+    "label": "QtCore",
     "collapsible": true,
     "collapsed": false,
     "link": {
       "type": "generated-index",
-      "description": "入门"
+      "description": "本系列将会介绍一下 Qt 的核心概念和相关组件"
     }
   }
