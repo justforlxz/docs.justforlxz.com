@@ -86,7 +86,7 @@ const config = {
           {
             docsPluginId:'qt',
             type: 'doc',
-            docId: 'index',
+            docId: 'preparation/index',
             position: 'left',
             label: 'Qt 入门'
           },
