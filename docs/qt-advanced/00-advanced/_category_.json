@@ -1,9 +1,9 @@
 {
-    "label": "QtCore",
+    "label": "Advanced",
     "collapsible": true,
     "collapsed": false,
     "link": {
       "type": "generated-index",
-      "description": "本系列将会介绍一下 Qt 的核心概念和相关组件"
+      "description": "带你了解 Qt 的核心概念"
     }
   }

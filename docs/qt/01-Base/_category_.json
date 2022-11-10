@@ -1,0 +1,9 @@
+{
+    "label": "信号、槽和属性",
+    "collapsible": true,
+    "collapsed": false,
+    "link": {
+      "type": "generated-index",
+      "description": "Qt 的基本功能"
+    }
+  }
